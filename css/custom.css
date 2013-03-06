@@ -1,0 +1,75 @@
+.hero-unit {
+	background-image: url('../img/cloth_alike.png');
+}
+
+#social-icons {
+
+	margin-top: 5px;
+}
+
+#social-icons li {
+	margin-left: 5px;
+}
+
+.social-header {
+	padding: none;
+	margin: none;
+}
+
+.navbar-inverse .navbar-inner {
+  /*background-color: #E88212;*/
+  background-color: #394042;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-repeat: none;
+  border-color: #252525;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
+}
+
+.navbar-inverse .nav .active > a,
+.navbar-inverse .nav .active > a:hover,
+.navbar-inverse .nav .active > a:focus {
+  /*color: #ffffff;*/
+  background-color: #394042;
+  /*background-color: #E88212;*/
+}
+
+/*
+.navbar-inverse .brand,
+.navbar-inverse .nav > li > a {
+  color: #lightgrey;
+  text-shadow: none;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+*/
+.navbar-inverse .nav > li > a.social-links {
+  padding: 0px;
+  margin: 0px;	
+}
+
+footer {
+	font-size: .8em;
+	color: white;
+	background-image: url('../img/debut_dark.png');
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+footer p {
+	text-align: center;
+}
+
+.stepper {
+	text-align: center;
+}
+
+.well {
+	/*background-image: url('../img/mochaGrunge.png');*/
+	background-color: #7E434A;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	color:lightgrey;
+}
+

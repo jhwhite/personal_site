@@ -1,0 +1,93 @@
+
+
+.thisSpinner {
+	width: 25px;
+}
+
+#app {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	max-width: 904px;
+}
+
+header {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  
+}
+/*
+* {
+	border: solid 1px black;
+}
+*/
+#radio {
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+	text-align: center;
+}
+
+#scores {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 25px;
+	/*width: 904px;*/
+}
+/*
+footer {
+	background: #dcdcdc;
+	font-size: .5em;
+	width: 100%;
+	text-align: center;
+	border-radius: 5px;
+}
+*/
+/*
+#toggle {
+	height: 50px;
+	width: 50px;
+	background-color: blue;
+}
+
+#panel {
+	background-image: url(bg.png);
+	width: 33%;
+	color: white;
+}
+*/
+
+/**************************************
+CSS for the table and table elements
+***************************************/
+
+table {
+	width: 100%;
+}
+
+td {
+	text-align: center;
+	/*border-top: solid 1px;*/
+}
+
+td.abilityName {
+	text-align: left;
+}
+/*
+td.ad {
+  border-top: 5px solid;
+  margin: 0;
+}*/
+
+div#amazon_ads {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
