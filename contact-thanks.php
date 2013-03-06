@@ -2,6 +2,7 @@
 
 $pageTitle = "Contact Jody";
 $section = "contact";
+$description = "Thank you page for contact me form";
 include('includes/header.php');
 ?>
 

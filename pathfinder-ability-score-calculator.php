@@ -1,6 +1,6 @@
 <?php 
 $pageTitle = "Pathfinder Ability Score Calculator";
-
+$description = "An ability score calculator for the Pathfinder Role Playing Game (RPG).";
 $section = "calc";
 include('includes/header.php'); 
 ?>

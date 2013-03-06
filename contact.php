@@ -56,6 +56,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 <?php
 $pageTitle = "Contact Jody";
 $section = "contact";
+$description = "Contact me form for Jody White";
 include('includes/header.php');
 ?>
 
