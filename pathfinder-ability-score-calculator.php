@@ -29,6 +29,8 @@ include('includes/header.php');
 	            <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 	            <g:plusone></g:plusone>
                 <h1>Pathfinder RPG Ability Score Calculator</h1>
+
+                <!-- GOOGLE ADSENSE -->
                 <script type="text/javascript"><!--
                     google_ad_client = "ca-pub-3386970320908648";
                     /* mySite-ability */
@@ -40,6 +42,8 @@ include('includes/header.php');
                     <script type="text/javascript"
                     src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
                 </script>
+                <!-- END GOOGLE ADSENSE -->
+                
             </header>
 
 			<div id="radio">
