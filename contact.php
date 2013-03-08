@@ -59,7 +59,7 @@ $section = "contact";
 $description = "Contact me form for Jody White";
 include('includes/header.php');
 ?>
-
+    <div class="container">
 <div class="row">
 	<div class="span4">
 	</div>

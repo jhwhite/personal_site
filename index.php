@@ -3,6 +3,7 @@ $pageTitle = "{Meet Jody}";
 $section = "home";
 $description = "Home page for Jody White on the internet.";
 include('includes/header.php'); ?>
+    <div class="container">
       <!-- Main hero unit for a primary marketing message or call to action -->
       <div class="hero-unit">
         <h1>{Meet Jody}</h1>

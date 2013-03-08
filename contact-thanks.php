@@ -5,7 +5,7 @@ $section = "contact";
 $description = "Thank you page for contact me form";
 include('includes/header.php');
 ?>
-
+    <div class="container">
 <div class="row">
 	<div class="span4">
 	</div>

@@ -3,7 +3,7 @@ $pageTitle = "James (Jody) White's Resume";
 $section = "resume";
 include('includes/header.php'); 
 ?>
-
+    <div class="container">
       <div class="page-header">
         <h1>James H. White</h1>
         <p><a href="mailto:jody@jody-white.com">jody@jody-white.com</a></p>

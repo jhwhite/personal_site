@@ -4,7 +4,7 @@ $description = "An ability score calculator for the Pathfinder Role Playing Game
 $section = "calc";
 include('includes/header.php'); 
 ?>
-
+    <div class="container">
 <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
