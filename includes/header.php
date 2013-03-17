@@ -58,6 +58,7 @@
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="<?php if ($section == "home") {echo "active";} ?>"><a href="index.php">Home</a></li>
+              <li><a href="/blog">Blog</a></li>
               <li class="<?php if ($section == "resume") {echo "active";} ?>"><a href="resume.php">Resume</a></li>
               <li class="<?php if ($section == "contact") {echo "active";} ?>"><a href="contact.php">Contact</a></li>
               <li class="<?php if ($section == "calc") {echo "active";} ?>"><a href="pathfinder-ability-score-calculator.php">Pathfinder Ability Score Calculator</a></li>
