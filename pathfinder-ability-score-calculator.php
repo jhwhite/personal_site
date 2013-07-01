@@ -16,6 +16,18 @@ include('includes/header.php');
 
 		<div class="3sections" id="app">
             <header>
+                <script type="text/javascript"><!--
+                    google_ad_client = "ca-pub-3386970320908648";
+                    /* d20_leaderboard */
+                    google_ad_slot = "2145763611";
+                    google_ad_width = 728;
+                    google_ad_height = 90;
+                    //-->
+                    </script>
+                    <script type="text/javascript"
+                    src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+                </script>
+
                 <img src="img/pathfinder.png">
                 
 	            <!-- FACEBOOK SOCIAL LIKE -->
@@ -29,21 +41,6 @@ include('includes/header.php');
 	            <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
 	            <g:plusone></g:plusone>
                 <h1>Pathfinder RPG Ability Score Calculator</h1>
-
-                <!-- GOOGLE ADSENSE -->
-                <script type="text/javascript"><!--
-                    google_ad_client = "ca-pub-3386970320908648";
-                    /* mySite-ability */
-                    google_ad_slot = "3881032018";
-                    google_ad_width = 468;
-                    google_ad_height = 15;
-                    //-->
-                    </script>
-                    <script type="text/javascript"
-                    src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-                </script>
-                <!-- END GOOGLE ADSENSE -->
-                
             </header>
 
 			<div id="radio">
