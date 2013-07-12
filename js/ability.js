@@ -252,8 +252,15 @@ var resetApp = function()
 
 	$('input:radio[name=radio]').click(function() {
 	  	val = $('input:radio[name=radio]:checked').val();
-	  	if (val=="other") {
-	  		val = prompt("Number of points?");
+	  	if (val=="other")
+	  	{
+	  		do {
+	  			val = prompt("Number of points?");
+	  			if (isNaN(val))
+	  			{
+	  				alert("You have entered an invalid number.");
+	  			}
+	  		}while(isNaN(val));
 	  	};
 	  	$('div#scores').slideDown('slow');
 	  	remainingPoints(val);
