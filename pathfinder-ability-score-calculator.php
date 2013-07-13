@@ -77,7 +77,7 @@ include('includes/header.php');
                         <th>Actual Points</th>
                         <th>Actual Mod</th>
                     </tr>
-                    <tr>
+                    <tr class="highlight">
             			<td class="abilityName"><label for="spinnerSTR"><a href="#" title="Strength measures muscle and physical power. This ability is important for those who engage in hand-to-hand (or “melee”) combat, such as fighters, monks, paladins, and some rangers. Strength also sets the maximum amount of weight your character can carry. A character with a Strength score of 0 is too weak to move in any way and is unconscious. Some creatures do not possess a Strength score and have no modifier at all to Strength-based skills or checks.">Strength: </a></label></td>
                         <td><input class="thisSpinner" id="spinnerSTR" name="value"/></td>
                         <td><span class="toChange" id="strMod">0</span></td>
@@ -86,7 +86,7 @@ include('includes/header.php');
                         <td><span class="change" id="actualStrPts">10</span></td>
                         <td><span class="toChange" id="actualStrMod">0</span></td>
                     </tr>
-                    <tr>
+                    <tr class="highlight">
             			<td class="abilityName"><label for="spinnerDEX"><a href="#" title="Dexterity measures agility, reflexes, and balance. This ability is the most important one for rogues, but it's also useful for characters who wear light or medium armor or no armor at all. This ability is vital for characters seeking to excel with ranged weapons, such as the bow or sling. A character with a Dexterity score of 0 is incapable of moving and is effectively immobile (but not unconscious).">Dexterity: </a></label></td>
                         <td><input class="thisSpinner" id="spinnerDEX" name="value"/></td>
                         <td><span class="toChange" id="dexMod">0</span></td>
@@ -95,7 +95,7 @@ include('includes/header.php');
                         <td><span class="change" id="actualDexPts">10</span></td>
                         <td><span class="toChange" id="actualDexMod">0</span></td>
                     </tr>
-                    <tr>
+                    <tr class="highlight">
             			<td class="abilityName"><label for="spinnerCON"><a href="#" title="Constitution represents your character's health and stamina. A Constitution bonus increases a character's hit points, so the ability is important for all classes. Some creatures, such as undead and constructs, do not have a Constitution score. Their modifier is +0 for any Constitution-based checks. A character with a Constitution score of 0 is dead.">Constitution: </a></label></td>
                         <td><input class="thisSpinner" id="spinnerCON" name="value"/></td>
                         <td><span class="toChange" id="conMod">0</span></td>
@@ -104,7 +104,7 @@ include('includes/header.php');
                         <td><span class="change" id="actualConPts">10</span></td>
                         <td><span class="toChange" id="actualConMod">0</span></td>
                     </tr>
-                    <tr>
+                    <tr class="highlight">
             			<td class="abilityName"><label for="spinnerINT"><a href="#" title="Intelligence determines how well your character learns and reasons. This ability is important for wizards because it affects their spellcasting ability in many ways. Creatures of animal-level instinct have Intelligence scores of 1 or 2. Any creature capable of understanding speech has a score of at least 3. A character with an Intelligence score of 0 is comatose. Some creatures do not possess an Intelligence score. Their modifier is +0 for any Intelligence-based skills or checks.">Intelligence: </a></label></td>
                         <td><input class="thisSpinner" id="spinnerINT" name="value"/></td>
                         <td><span class="toChange" id="intMod">0</span></td>
@@ -113,7 +113,7 @@ include('includes/header.php');
                         <td><span class="change" id="actualIntPts">10</span></td>
                         <td><span class="toChange" id="actualIntMod">0</span></td>
                     </tr>
-                    <tr>
+                    <tr class="highlight">
             			<td class="abilityName"><label for="spinnerWIS"><a href="#" title="Wisdom describes a character's willpower, common sense, awareness, and intuition. Wisdom is the most important ability for clerics and druids, and it is also important for paladins and rangers. If you want your character to have acute senses, put a high score in Wisdom. Every creature has a Wisdom score. A character with a Wisdom score of 0 is incapable of rational thought and is unconscious.">Wisdom: </a></label></td>
                         <td><input class="thisSpinner" id="spinnerWIS" name="value"/></td>
                         <td><span class="toChange" id="wisMod">0</span></td>
@@ -122,7 +122,7 @@ include('includes/header.php');
                         <td><span class="change" id="actualWisPts">10</span></td>
                         <td><span class="toChange" id="actualWisMod">0</span></td>
                     </tr>
-                    <tr>
+                    <tr class="highlight">
             			<td class="abilityName"><label for="spinnerCHA"><a href="#" title="Charisma measures a character's personality, personal magnetism, ability to lead, and appearance. It is the most important ability for paladins, sorcerers, and bards. It is also important for clerics, since it affects their ability to channel energy. For undead creatures, Charisma is a measure of their unnatural “lifeforce.” Every creature has a Charisma score. A character with a Charisma score of 0 is not able to exert himself in any way and is unconscious.">Charisma: </a></label></td>
                         <td><input class="thisSpinner" id="spinnerCHA" name="value"/></td>
                         <td><span class="toChange" id="chaMod">0</span></td>
