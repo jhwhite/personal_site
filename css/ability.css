@@ -1,4 +1,6 @@
-
+tr:hover {
+	background-color: #ffffcc;
+}
 
 .thisSpinner {
 	width: 25px;
