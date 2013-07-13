@@ -242,6 +242,8 @@ var resetApp = function()
 
  $(document).ready(function() {
 
+ 	$('.abilityName').tooltip();
+ 	
  	$( "#radio" ).buttonset();
 
  	$('#reset').click(function(){
