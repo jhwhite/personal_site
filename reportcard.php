@@ -1,5 +1,5 @@
 <?php 
-	$pageTitle = "Treehouse Badges";
+	$pageTitle = "Web Dev Report Card";
 	$section = "report";
 	$description = "Badges I've earned at teamtreehouse.com.";
 	include('includes/header.php');
