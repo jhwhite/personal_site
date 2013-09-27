@@ -18,6 +18,7 @@
     <script src="js/bootstrap.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
     <script src='js/ability.js'></script>
+    <script src='js/badges.js'></script>
     <!--
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap-transition.js"></script>

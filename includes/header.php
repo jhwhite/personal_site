@@ -62,6 +62,7 @@
               <li class="<?php if ($section == "resume") {echo "active";} ?>"><a href="resume.php">Resume</a></li>
               <li class="<?php if ($section == "contact") {echo "active";} ?>"><a href="contact.php">Contact</a></li>
               <li class="<?php if ($section == "calc") {echo "active";} ?>"><a href="pathfinder-ability-score-calculator.php">Pathfinder Ability Score Calculator</a></li>
+              <li class="<?php if ($section == "report") {echo "active";} ?>"><a href="reportcard.php">Report Card</a></li>
             </ul>
             <ul id="social-icons" class="nav pull-right">
               <li><a class="social-links" href="http://www.linkedin.com/in/jameshwhite"><img src="img/social-icons/linkedin.png"></a></li>
