@@ -34,16 +34,6 @@
     <script src="js/bootstrap-carousel.js"></script>
     <script src="js/bootstrap-typeahead.js"></script>
     -->
-    <?php
-if ($section == "resume") {
-  echo "<script type='text/javascript'>
-    <!--
-    if (screen.width <= 699) {
-    document.location = 'm/resume/';
-    }
-    //-->
-    </script>";
-  } 
-?>
+
   </body>
 </html>
