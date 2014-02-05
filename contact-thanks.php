@@ -17,5 +17,7 @@ include('includes/header.php');
 		</div>
 	</div>
 </div>
-
+<script type="text/javascript">
+	mixpanel.track("Contact form submitted!")
+</script>
 <?php include('includes/footer.php'); ?>

@@ -43,6 +43,10 @@ include('includes/header.php');
                 <h1>Pathfinder RPG Ability Score Calculator</h1>
             </header>
 
+            <script type="text/javascript">
+                mixpanel.track("Visit to Pathfinder ability score calculator")
+            </script>
+
 			<div id="radio">
 			    <input type="radio" id="radio1" name="radio" value="10"/><label for="radio1">Low Fantasy: 10</label>
     			<input type="radio" id="radio2" name="radio" value="15"/><label for="radio2">Standard Fantasy: 15</label>

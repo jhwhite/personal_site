@@ -35,5 +35,7 @@ include('includes/header.php'); ?>
           </div>
         </div>
       </div>
-
+<script type="text/javascript">
+  mixpanel.track("Visit to home page")
+</script>
 <?php include('includes/footer.php'); ?>
