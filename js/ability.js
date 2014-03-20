@@ -256,6 +256,7 @@ var resetApp = function()
 	  	val = $('input:radio[name=radio]:checked').val();
 	  	if (val=="other")
 	  	{
+	  		mixpanel.track("Other");
 	  		do {
 	  			val = prompt("Number of points?");
 	  			if (isNaN(val))
@@ -263,7 +264,24 @@ var resetApp = function()
 	  				alert("You have entered an invalid number.");
 	  			}
 	  		}while(isNaN(val));
+	  	}
+	  	else if (val=="25")
+	  	{
+	  		mixpanel.track("Epic Fantasy");
+	  	}
+	  	else if (val=="20")
+	  	{
+	  		mixpanel.track("High Fantasy");
+	  	}
+	  	else if (val=="15")
+	  	{
+	  		mixpanel.track("Standard Fantasy");
+	  	}
+	  	else
+	  	{
+	  		mixpanel.track("Low Fantasy");
 	  	};
+	  	
 	  	$('div#scores').slideDown('slow');
 	  	remainingPoints(val);
 	});
