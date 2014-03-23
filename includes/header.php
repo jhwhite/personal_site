@@ -8,7 +8,7 @@
     <meta name="author" content="Jody White">
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.0/themes/base/jquery-ui.css" />
     <link rel="stylesheet" href="css/ability.css" />
-
+    <script src='js/Chart.js'></script>
 
     <!-- Le styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -70,6 +70,7 @@ mixpanel.init("736a88e89afa1e65a17457e4689c150e");
               <li class="<?php if ($section == "resume") {echo "active";} ?>"><a href="resume.php">Resume</a></li>
               <li class="<?php if ($section == "contact") {echo "active";} ?>"><a href="contact.php">Contact</a></li>
               <li class="<?php if ($section == "calc") {echo "active";} ?>"><a href="pathfinder-ability-score-calculator.php">Pathfinder Ability Score Calculator</a></li>
+              <li class="<?php if ($section == "stats") {echo "active";} ?>"><a href="pathfinder-calc-stats.php">Pathfinder Calculator Statistics</a></li>
               <!--<li class="<?php if ($section == "report") {echo "active";} ?>"><a href="reportcard.php">Report Card</a></li>-->
             </ul>
             <ul id="social-icons" class="nav pull-right">
